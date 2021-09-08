@@ -7,7 +7,19 @@ body {
     position: relative;
     height: 60vh;
     margin: 20vh auto;
+    background-color: rgb(0, 0, 0);
 }
+
+
+/* @keyframes pulse {
+    0%,
+    100% {
+        animation-timing-function: ease-in;
+    }
+    20% {
+        transform: scale(0.8);
+    }
+} */
 
 .wall {
     width: 60%;
@@ -24,6 +36,7 @@ body {
     width: 90%;
     height: 20%;
     border-radius: 10px;
+    animation: pulse 1.4s infinite;
 }
 
 .cyan {
@@ -39,6 +52,7 @@ body {
     width: 48.5%;
     border-radius: 10px;
     justify-content: space-around;
+    animation: pulse 0.7s infinite;
 }
 
 .blue {
@@ -54,4 +68,5 @@ body {
     width: 23%;
     border-radius: 10px;
     justify-content: space-around;
+    animation: pulse 0.35s infinite;
 }
